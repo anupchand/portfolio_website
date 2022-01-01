@@ -5,9 +5,7 @@
   overflow: hidden;
 }
 
-.btn-dark,
-.btn-light,
-.btn-main {
+.btn-dark, .btn-light, .btn-main {
   display: inline-block;
   padding: 0.8rem 2rem;
   transition: all 0.5s;
@@ -28,9 +26,9 @@
   background: #333;
 }
 
-input[class^="btn-"]:hover,
-button[class^="btn-"]:hover,
-a[class^="btn-"]:hover {
+input[class^=btn-]:hover,
+button[class^=btn-]:hover,
+a[class^=btn-]:hover {
   background-color: #ffbc00;
   color: #fff;
 }
@@ -173,8 +171,7 @@ a[class^="btn-"]:hover {
   z-index: 1;
   color: #fff;
   transform: translateY(-20%);
-  transition: opacity 500ms cubic-bezier(0.2, 1, 0.3, 1),
-    transform 500ms cubic-bezier(0.2, 1, 0.3, 1);
+  transition: opacity 500ms cubic-bezier(0.2, 1, 0.3, 1), transform 500ms cubic-bezier(0.2, 1, 0.3, 1);
   transition-delay: 650ms;
 }
 .item-text-wrap {
@@ -259,8 +256,7 @@ img {
 }
 
 #header-home {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
-    url("../img/boat.jpg") no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url("../img/boat.jpg") no-repeat center center/cover;
   height: 100vh;
   color: #fff;
 }
@@ -273,8 +269,7 @@ img {
   line-height: 1.2;
 }
 #header-inner {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
-    url("../img/boat.jpg") no-repeat 20% 30% / cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url("../img/boat.jpg") no-repeat 20% 30%/cover;
   height: 5.5rem;
   border-bottom: 3px solid #ffbc00;
 }
@@ -399,11 +394,11 @@ img {
 }
 #about-c .about-logos {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2rem;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 0.5rem;
 }
 #about-c .about-logos img {
-  width: 70%;
+  width: 60%;
   filter: grayscale(1);
 }
 #about-d .testimonials {
@@ -454,7 +449,7 @@ img {
 #contact-a .text-fields .text-input {
   padding: 0.5rem 1rem;
 }
-#contact-a button[type="submit"] {
+#contact-a button[type=submit] {
   width: 50%;
 }
 #contact-b .contact-info {
@@ -522,11 +517,11 @@ img {
   }
 
   #home-a .specials,
-  #home-b .stats,
-  #home-c .process,
-  #about-d .testimonials,
-  #contact-b .contact-info,
-  .items {
+#home-b .stats,
+#home-c .process,
+#about-d .testimonials,
+#contact-b .contact-info,
+.items {
     grid-template-columns: 1fr;
   }
 
