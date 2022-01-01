@@ -232,7 +232,7 @@ img {
 #main-nav {
   display: flex;
   justify-content: space-between;
-  padding-top: 1rem;
+  padding-block: 1rem;
 }
 #main-nav ul {
   display: flex;
