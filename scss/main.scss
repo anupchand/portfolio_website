@@ -254,11 +254,12 @@ img {
   &-c {
     .about-logos {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-gap: 2rem;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 0.5rem;
 
       img {
-        width: 70%;
+        width: 60%;
+        filter: grayscale(100%);
       }
     }
   }

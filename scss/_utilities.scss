@@ -118,3 +118,7 @@ a[class^="btn-"]:hover {
   display: block;
   margin: 0 auto 1rem auto;
 }
+
+.grayscale {
+  filter: grayscale(100%);
+}
