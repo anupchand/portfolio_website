@@ -393,7 +393,9 @@ img {
 #about-c .about-logos {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 0.5rem;
+  column-gap: 0.5rem;
+  row-gap: 2rem;
+  justify-items: center;
 }
 #about-c .about-logos img {
   width: 60%;
