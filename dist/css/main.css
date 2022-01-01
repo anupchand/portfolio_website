@@ -223,16 +223,14 @@ img {
 }
 
 #logo {
-  width: 95px;
-  height: 70px;
-  color: #fff;
-  text-transform: uppercase;
+  width: 100px;
+  object-fit: cover;
 }
 
 #main-nav {
   display: flex;
   justify-content: space-between;
-  padding-block: 1rem;
+  padding-top: 1rem;
 }
 #main-nav ul {
   display: flex;
