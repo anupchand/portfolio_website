@@ -4,12 +4,22 @@
   "description": "Website for portfolio",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css --recursive"
+    "wa": "node sass --watch scss:dist/css"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^6.0.1",
     "sass": "^1.45.2"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anupchand/portfolio_website.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/anupchand/portfolio_website/issues"
+  },
+  "homepage": "https://github.com/anupchand/portfolio_website#readme"
 }
