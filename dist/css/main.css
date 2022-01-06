@@ -192,10 +192,6 @@ a[class^=btn-]:hover {
   margin: 0;
 }
 
-:root {
-  color-scheme: light dark;
-}
-
 * {
   margin: 0;
   padding: 0;
