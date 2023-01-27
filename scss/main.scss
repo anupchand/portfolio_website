@@ -368,6 +368,8 @@ img {
 
     // Social media Icons
     .social .fab {
+      color: $dark-color;
+      background-color: #fff;
       margin-right: 1rem;
       border: 2px #fff solid;
       border-radius: 50%;
@@ -376,6 +378,7 @@ img {
       line-height: 20px;
       text-align: center;
       padding: 0.5rem;
+      transition: background-color 0.3s ease-in-out;
 
       &:hover {
         background: $main-color;
