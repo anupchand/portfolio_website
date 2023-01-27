@@ -344,6 +344,12 @@ img {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       text-align: center;
+      a {
+        color: #fff;
+      }
+      div:hover * {
+        color: $main-color;
+      }
     }
   }
   &-c {
@@ -355,7 +361,9 @@ img {
 }
 
 // Main footer///////////
-#main-footer {
+#main-footer,
+.contact-footer,
+.work-footer {
   background: $dark-color;
   color: #fff;
   height: 5rem;
@@ -386,6 +394,21 @@ img {
     }
   }
 }
+
+// // section b and c of contact page
+
+// // footer of contact page
+// .contact-footer,
+// .work-footer {
+//   position: absolute;
+//   bottom: 0;
+//   width: 100%;
+// }
+
+// .contact-footer i,
+// .work-footer i {
+//   cursor: pointer;
+// }
 
 // Import Media Queries ///////
 @import "media";

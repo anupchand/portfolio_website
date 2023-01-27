@@ -457,23 +457,35 @@ img {
   grid-template-columns: repeat(3, 1fr);
   text-align: center;
 }
+#contact-b .contact-info a {
+  color: #fff;
+}
+#contact-b .contact-info div:hover * {
+  color: #ffbc00;
+}
 #contact-c h1 {
   text-align: center;
   font-size: 4rem;
 }
 
-#main-footer {
+#main-footer,
+.contact-footer,
+.work-footer {
   background: #333;
   color: #fff;
   height: 5rem;
 }
-#main-footer .footer-content {
+#main-footer .footer-content,
+.contact-footer .footer-content,
+.work-footer .footer-content {
   display: flex;
   justify-content: space-between;
   height: 5rem;
   align-items: center;
 }
-#main-footer .footer-content .social .fab {
+#main-footer .footer-content .social .fab,
+.contact-footer .footer-content .social .fab,
+.work-footer .footer-content .social .fab {
   color: #333;
   background-color: #fff;
   margin-right: 1rem;
@@ -486,7 +498,9 @@ img {
   padding: 0.5rem;
   transition: background-color 0.3s ease-in-out;
 }
-#main-footer .footer-content .social .fab:hover {
+#main-footer .footer-content .social .fab:hover,
+.contact-footer .footer-content .social .fab:hover,
+.work-footer .footer-content .social .fab:hover {
   background: #ffbc00;
 }
 
