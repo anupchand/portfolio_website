@@ -42,6 +42,12 @@ img {
   width: 100px;
   object-fit: cover;
 }
+.main-layout {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
 
 // main-nav ----- Main Navigation
 #main-nav {
@@ -148,6 +154,7 @@ img {
   }
 
   // Home Section C
+
   &-c {
     .process {
       display: grid;
