@@ -28,6 +28,7 @@
     @extend %btn-shared;
     color: #f4f4f4;
     background: $dark-color;
+    transition: all 200ms ease-in-out;
   }
 }
 

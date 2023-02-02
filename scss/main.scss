@@ -343,6 +343,12 @@ img {
     button[type="submit"] {
       width: 50%;
     }
+    .submitter {
+      transition: 200ms all ease-in-out;
+    }
+    .submitter:hover {
+      font-weight: 600;
+    }
   }
 
   // Section B

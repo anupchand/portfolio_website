@@ -24,6 +24,7 @@
 .btn-dark {
   color: #f4f4f4;
   background: #333;
+  transition: all 200ms ease-in-out;
 }
 
 input[class^=btn-]:hover,
@@ -458,6 +459,12 @@ img {
 }
 #contact-a button[type=submit] {
   width: 50%;
+}
+#contact-a .submitter {
+  transition: 200ms all ease-in-out;
+}
+#contact-a .submitter:hover {
+  font-weight: 600;
 }
 #contact-b .contact-info {
   display: grid;
